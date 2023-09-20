@@ -1,13 +1,12 @@
-# arduino_control
-Implementation of low-cost feedback control in a shell-and-tube heat exchanger
+# Implementation of low-cost feedback control in a shell-and-tube heat exchanger
 
-Low-Cost PID Control for Shell-and-Tube Heat Exchanger Using Arduino
-Overview
+## Overview
 
 This repository contains the code and documentation for implementing a low-cost PID control system for a shell-and-tube heat exchanger using Arduino. The project focuses on temperature control of the heat exchanger outlet by manipulating the rotation of a centrifugal pump and fluid flow in the shell.
 
 Heat Exchanger
-Table of Contents
+
+## Table of Contents
 
     Project Description
     Requirements
@@ -16,7 +15,7 @@ Table of Contents
     Contributing
     License
 
-Project Description
+## Project Description
 
 Industrial process control is typically done using expensive Programmable Logic Controllers (PLCs). This project explores an alternative by implementing a low-cost PID control system using Arduino. The PID controller adjusts the pump's rotation to maintain the process temperature close to a set-point.
 
@@ -31,7 +30,7 @@ To run this project, you will need the following hardware and software:
     Shell-and-tube heat exchanger module
     Arduino IDE
 
-Installation
+## Installation
 
     Clone this repository to your local machine:
 
@@ -47,7 +46,7 @@ Installation
 
     Upload the sketch to your Arduino board.
 
-Usage
+## Usage
 
     Connect the temperature sensor to the appropriate pins on the Arduino board.
 
@@ -57,9 +56,10 @@ Usage
 
     Open the Arduino serial monitor to view temperature readings and control adjustments.
 
-Contributing
+## Contributing
 
 Contributions to this project are welcome. Feel free to open issues, submit pull requests, or provide feedback.
-License
+
+## License
 
 This project is licensed under the MIT License.
