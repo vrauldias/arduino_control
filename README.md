@@ -6,12 +6,15 @@ This work was developed at Federal University of Technology – Paraná (Univers
 
 This repository contains the code and documentation for implementing a low-cost PID control system for a shell-and-tube heat exchanger using Arduino. The project focuses on temperature control of the heat exchanger outlet by manipulating the rotation of a centrifugal pump and fluid flow in the shell.
 
+![sketch_hor_bb](https://github.com/vrauldias/arduino_control/assets/71993154/9bde133d-29a7-4c54-acae-a28fb02fb069)
+
 ## Project Description
 
 Industrial process control is typically done using expensive Programmable Logic Controllers (PLCs). This project uses Arduino to explore an alternative by implementing a low-cost PID control system. The PID controller adjusts the pump's rotation to maintain the process temperature close to a set point.
 
 The methodology involves utilizing an educational shell-and-tube heat exchanger module with Arduino components. The PID controller's feasibility is assessed within the pump's operational range.
-Requirements
+
+##Requirements
 
 To run this project, you will need the following hardware and software:
 
